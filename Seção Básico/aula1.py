@@ -1,4 +1,3 @@
-"""
 numero = input('Digite um número: ')
 
 try:
@@ -9,9 +8,7 @@ try:
         print(f'O número {numero} é ímpar')
 except:
     print('Você não digitou um número inteiro')
-    """
 
-"""
 hora = int(input('Que horas são? '))
 
 if hora >= 0 and hora <= 11:
@@ -21,8 +18,7 @@ elif hora >= 12  and hora <= 17:
 else:
     print('Boa noite!')
 
-    """
-"""
+
 nome = str(input('Qual seu nome? '))
 shape = len(nome)
 
@@ -32,4 +28,4 @@ elif shape > 4 and shape < 7:
     print('Seu nome é normal')
 else:
     print('Seu nome é muito grande!')
-    """
+  
